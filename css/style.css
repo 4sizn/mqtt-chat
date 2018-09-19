@@ -1,0 +1,48 @@
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.tools--gnb{
+  position: relative;
+}
+
+.tools--gnb .timer{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container{
+  width: 500px;
+  height: 680px;
+  margin: 0 auto;
+
+  background-color: #6C6C6C;
+}
+.header--gnb{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logs{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+.log{
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputBox .textarea{
+
+}
